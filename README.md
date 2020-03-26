@@ -16,21 +16,31 @@ I found it necessary to add new layouts to the app with this version
   </head>
   <body>
   <!--header section starts -->
-  <section id="nav">
-    <div id="nav-bar">
+  <section id="header">
+    <section id="header-img">   //company logo goes here
+      <img>
+    </section>
+  <section>                     // section for nav bar
+    <nav id="nav-bar">
       <ul>
-        <li>Features</li>
-        <li>How It Works</li>
-        <li>Pricing</li>
+        <a href="#ftrs"><li class="nav-link">Features</li></a>
+        <a href="vid-trmb"><li class="nav-link">How It Works</li></a>
+        <a href=""><li class="nav-link">Pricing</li></a>
       </ul>
-    </div>
+    </nav>
   </section>
   <section>
     <div id="h-txt"></div>
   </section>
+    </section>
   <!--header section ends -->
   
   <!--main section starts -->
+  <form action="https://www.freecodecamp.com/email-submit" id="">                                 //form goes here
+  <label for="email-label">GET STARTED</label>
+  <input type="text" id="email" name="Email" placeholder="Enter your email address">
+  <input type="submit" id="submit">
+  </form>
   <div id="ftrs">                      //features goes here
     <h2>Premimum Materials</h2>
     <p></p>
@@ -41,10 +51,10 @@ I found it necessary to add new layouts to the app with this version
   </div>
   <!--trumbone video goes here -->
   <section>
-    <div id="vid-trmb">                 
+    <div id="vid-trmb">                //video goes here 
     </div> 
   </section>
-  <div ="prices">                     // prices go here
+  <div id="prices">                     // prices go here
   <div>
   <h3>TENOR TROMBONE</h3>
 </div>
