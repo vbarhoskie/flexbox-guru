@@ -24,8 +24,8 @@ I found it necessary to add new layouts to the app with this version
     <nav id="nav-bar">
       <ul>
         <a href="#ftrs"><li class="nav-link">Features</li></a>
-        <a href="vid-trmb"><li class="nav-link">How It Works</li></a>
-        <a href="prices"><li class="nav-link">Pricing</li></a>
+        <a href="#vid-trmb"><li class="nav-link">How It Works</li></a>
+        <a href="#prices"><li class="nav-link">Pricing</li></a>
       </ul>
     </nav>
   </section>
